@@ -1,0 +1,17 @@
+{
+    "condition": "climate == CLIMATE_ARCTIC",
+    "cargotypes": [
+        {"name":"pass", "switch":"_pass"},
+        {"name":"coal"},
+        {"name":"mail", "switch":"_mail"},
+        {"name":"oil"},
+        {"name":"lvst"},
+        {"name":"good"},
+        {"name":"whet"},
+        {"name":"wood"},
+        {"name":""},
+        {"name":"papr"},
+        {"name":"gold"},
+        {"name":"food"}
+    ]
+}

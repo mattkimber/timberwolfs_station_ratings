@@ -1,0 +1,9 @@
+*.exe
+*.tar
+*.nml
+*.grf
+timberwolfs_ratings
+.nmlcache
+.idea
+1x
+2x

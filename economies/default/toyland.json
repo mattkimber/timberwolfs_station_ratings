@@ -1,0 +1,17 @@
+{
+    "condition": "climate == CLIMATE_TOYLAND",
+    "cargotypes": [
+        {"name":"pass", "switch":"_pass"},
+        {"name":"sugr", "defsprites": true},
+        {"name":"mail", "switch":"_mail"},
+        {"name":"toys", "defsprites": true},
+        {"name":"batt", "defsprites": true},
+        {"name":"cndy", "defsprites": true},
+        {"name":"toff", "defsprites": true},
+        {"name":"cola", "defsprites": true},
+        {"name":"flos", "defsprites": true},
+        {"name":"bubl", "defsprites": true},
+        {"name":"plas", "defsprites": true},
+        {"name":"fizy", "defsprites": true}
+    ]
+}

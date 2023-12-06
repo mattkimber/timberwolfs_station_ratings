@@ -1,0 +1,6 @@
+v1.0.0
+------
+
+First version allowing custom station ratings for
+- Base game
+- FIRS 4.x (all economies)

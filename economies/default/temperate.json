@@ -1,0 +1,16 @@
+{
+    "condition": "climate == CLIMATE_TEMPERATE",
+    "cargotypes": [
+        {"name":"pass", "switch":"_pass"},
+        {"name":"coal"},
+        {"name":"mail", "switch":"_mail"},
+        {"name":"oil", "switch":"_sea"},
+        {"name":"lvst"},
+        {"name":"good"},
+        {"name":"grai"},
+        {"name":"wood"},
+        {"name":"iore"},
+        {"name":"stel"},
+        {"name":"valu"}
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "condition": "climate == CLIMATE_TROPICAL",
+    "cargotypes": [
+        {"name":"pass", "switch":"_pass"},
+        {"name":"rubr"},
+        {"name":"mail", "switch":"_mail"},
+        {"name":"oil", "switch":"_sea"},
+        {"name":"frut"},
+        {"name":"good"},
+        {"name":"maiz"},
+        {"name":"wood"},
+        {"name":""},
+        {"name":""},
+        {"name":"diam"},
+        {"name":"food"}
+    ]
+}

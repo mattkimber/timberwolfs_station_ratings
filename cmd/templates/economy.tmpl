@@ -1,0 +1,12 @@
+{{- $name := upper .Name -}}{{- if eq .Name "default"}} else { {{- else -}}{{- if not .IsFirst}} else{{- end }}if (is_{{.Name}}) { {{- end}}
+{{- range .Economies }}{{- $ename := upper .Name}}
+    if ({{.Condition}}) {
+        {{- range $idx, $elem := .CargoTypes }}{{if ne $elem.Name ""}}
+            item(FEAT_CARGOS, C_{{$name}}_{{$ename}}_{{upper $elem.Name}}, {{$idx}}) {
+                {{if not .DefaultSprites}}property { sprite: NEW_CARGO_SPRITE; }
+                {{end}}graphics { station_rating: switch_improved_station_rating{{$elem.Switch}};{{if not .DefaultSprites}} default: spriteset_cargo_{{$elem.Name}};{{end}} }
+            }
+            {{end}}{{ end -}}
+    }
+{{ end -}}
+}

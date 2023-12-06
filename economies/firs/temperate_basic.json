@@ -1,0 +1,23 @@
+{
+    "condition": "firs_economy == 0",
+    "cargotypes": [
+        {"name":"pass", "switch":"_pass"},
+        {"name":"beer"},
+        {"name":"mail", "switch":"_mail"},
+        {"name":"chem"},
+        {"name":"coal"},
+        {"name":"good"},
+        {"name":"ensp"},
+        {"name":"fmsp"},
+        {"name":"fish", "switch":"_sea"},
+        {"name":"frut"},
+        {"name":"iore"},
+        {"name":"food"},
+        {"name":"kaol"},
+        {"name":"lvst"},
+        {"name":"milk"},
+        {"name":"sand"},
+        {"name":"scrp"},
+        {"name":"stel"}
+    ]
+}

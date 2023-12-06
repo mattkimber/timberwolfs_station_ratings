@@ -1,0 +1,217 @@
+
+if (is_firs) {
+
+    if(firs_economy==0) {
+        // Temperate Basic
+        item(FEAT_CARGOS, C_PASS, 0) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating_pass; default: spriteset_cargo_pass; }
+        }
+
+        item(FEAT_CARGOS, C_BEER, 2) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating; default: spriteset_cargo_beer; }
+        }
+
+        item(FEAT_CARGOS, C_MAIL, 2) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating_mail; default: spriteset_cargo_mail; }
+        }
+
+    }
+
+} else {
+    // Base game cargo
+    item(FEAT_CARGOS, C_PASS, 0) {
+        property { sprite: NEW_CARGO_SPRITE; }
+        graphics { station_rating: switch_improved_station_rating_pass; default: spriteset_cargo_pass; }
+    }
+
+    item(FEAT_CARGOS, C_MAIL, 2) {
+        property { sprite: NEW_CARGO_SPRITE; }
+        graphics { station_rating: switch_improved_station_rating_mail; default: spriteset_cargo_mail; }
+    }
+
+
+    if(climate == CLIMATE_TEMPERATE) {
+        item(FEAT_CARGOS, C_COAL, 1) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating; default: spriteset_cargo_coal; }
+        }
+
+        item(FEAT_CARGOS, C_OIL, 3) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating_sea; default: spriteset_cargo_oil; }
+        }
+
+        item(FEAT_CARGOS, C_LVST, 4) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_lvst; }
+        }
+
+        item(FEAT_CARGOS, C_GOOD, 5) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_good;}
+        }
+
+        item(FEAT_CARGOS, C_GRAI, 6) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_grai;}
+        }
+
+        item(FEAT_CARGOS, C_WOOD, 7) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_wood;}
+        }
+
+        item(FEAT_CARGOS, C_IORE, 8) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_iore;}
+        }
+
+        item(FEAT_CARGOS, C_STEL, 9) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_stel;}
+        }
+
+        item(FEAT_CARGOS, C_VALU, 10) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_gold;}
+        }
+    } else if (climate == CLIMATE_ARCTIC) {
+        item(FEAT_CARGOS, C_COAL, 1) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating; default: spriteset_cargo_coal; }
+        }
+
+        item(FEAT_CARGOS, C_OIL, 3) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating_sea; default: spriteset_cargo_oil; }
+        }
+
+        item(FEAT_CARGOS, C_LVST, 4) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_lvst; }
+        }
+
+        item(FEAT_CARGOS, C_GOOD, 5) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_good;}
+        }
+
+        item(FEAT_CARGOS, C_WHET, 6) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_grai;}
+        }
+
+        item(FEAT_CARGOS, C_WOOD, 7) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_wood;}
+        }
+
+        item(FEAT_CARGOS, C_CORE, 8) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_core;}
+        }
+
+        item(FEAT_CARGOS, C_WATR, 9) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_watr;}
+        }
+
+        item(FEAT_CARGOS, C_GOLD, 10) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_gold;}
+        }
+
+        item(FEAT_CARGOS, C_FOOD, 11) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_food;}
+        }
+    } else if (climate == CLIMATE_TROPICAL) {
+        item(FEAT_CARGOS, C_RUBR, 1) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating; default: spriteset_cargo_rubr; }
+        }
+
+        item(FEAT_CARGOS, C_OIL, 3) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating_sea; default: spriteset_cargo_oil; }
+        }
+
+        item(FEAT_CARGOS, C_FRUT, 4) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_frut; }
+        }
+
+        item(FEAT_CARGOS, C_GOOD, 5) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_good;}
+        }
+
+        item(FEAT_CARGOS, C_MAIZ, 6) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_maiz;}
+        }
+
+        item(FEAT_CARGOS, C_WOOD, 7) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_wood;}
+        }
+
+        item(FEAT_CARGOS, C_PAPR, 9) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_papr;}
+        }
+
+        item(FEAT_CARGOS, C_DIAM, 10) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_diam;}
+        }
+
+        item(FEAT_CARGOS, C_FOOD, 11) {
+            property { sprite: NEW_CARGO_SPRITE; }
+            graphics { station_rating: switch_improved_station_rating;  default: spriteset_cargo_food;}
+        }
+    } else if (climate == CLIMATE_TOYLAND) {
+        item(FEAT_CARGOS, C_SUGR, 1) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_TOYS, 3) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_BATT, 4) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_CNDY, 5) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_TOFF, 6) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_COLA, 7) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_FLOS, 8) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_BUBL, 9) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_PLAS, 10) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+
+        item(FEAT_CARGOS, C_FIZY, 11) {
+            graphics { station_rating: switch_improved_station_rating;}
+        }
+    }
+}
