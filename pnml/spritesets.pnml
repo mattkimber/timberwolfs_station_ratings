@@ -40,12 +40,6 @@ spriteset(spriteset_cargo_boom, "1x/boom_8bpp.png")
 alternative_sprites(spriteset_cargo_boom, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "2x/boom_8bpp.png")
 { template_cargo_2x() }
 
-spriteset(spriteset_cargo_building, "1x/building_8bpp.png")
-{ template_cargo_1x() }
-
-alternative_sprites(spriteset_cargo_building, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "2x/building_8bpp.png")
-{ template_cargo_2x() }
-
 spriteset(spriteset_cargo_cass, "1x/cass_8bpp.png")
 { template_cargo_1x() }
 
@@ -464,12 +458,6 @@ spriteset(spriteset_cargo_sulp, "1x/sulp_8bpp.png")
 { template_cargo_1x() }
 
 alternative_sprites(spriteset_cargo_sulp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "2x/sulp_8bpp.png")
-{ template_cargo_2x() }
-
-spriteset(spriteset_cargo_timber, "1x/timber_8bpp.png")
-{ template_cargo_1x() }
-
-alternative_sprites(spriteset_cargo_timber, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "2x/timber_8bpp.png")
 { template_cargo_2x() }
 
 spriteset(spriteset_cargo_todo, "1x/todo_8bpp.png")
