@@ -6,8 +6,8 @@ in a way which better suits Timberwolf's Trains and Road
 Vehicles, especially in games with an early start year.
 
 Also due to the way in which cargo overrides operate, it
-supplies 2x cargo sprites for all FIRS cargo, so cargo does
-not appear as a generic box.
+supplies 2x cargo sprites for all FIRS/AIRS cargo, so cargo 
+does not appear as a generic box.
 
 How it works
 ------------
@@ -84,7 +84,7 @@ connecting services will already need to be provided.
 
 Note: as this is a somewhat unexpected use of NML, support for
 industry sets has to be hardcoded on a set-by-set basis. Currently
-only FIRS 4 and the base game are supported.
+only FIRS 4, AIRS, and the base game are supported.
 
 Compatibility may be broken if industry sets introduce new cargo
 types, or otherwise reorder their cargo list.
