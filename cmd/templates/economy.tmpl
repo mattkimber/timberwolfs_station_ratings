@@ -1,4 +1,4 @@
-{{- $name := upper .Name -}}{{- if eq .Name "default"}} else { {{- else -}}{{- if not .IsFirst}} else{{- end }}if (is_{{.Name}}) { {{- end}}
+{{- $name := upper .Name -}}{{- if eq .Name "default"}} else { {{- else -}}{{- if not .IsFirst}} else{{- end }} if (is_{{.Name}}) { {{- end}}
 {{- range .Economies }}{{- $ename := upper .Name}}
     if ({{.Condition}}) {
         {{- range $idx, $elem := .CargoTypes }}{{if ne $elem.Name ""}}

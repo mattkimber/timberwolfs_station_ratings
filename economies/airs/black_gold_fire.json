@@ -1,0 +1,29 @@
+{
+    "condition": "airs_economy == 1",
+    "cargotypes": [
+        {"name":"pass", "switch":"_pass"},
+        {"name":"bdmt"},
+        {"name":"mail", "switch":"_mail"},
+        {"name":"rfpr"},
+        {"name":"coal"},
+        {"name":"good"},
+        {"name":"coke"},
+        {"name":"ensp"},
+        {"name":"iore"},
+        {"name":"lime"},
+        {"name":"wood"},
+        {"name":"food"},
+        {"name":"petr"},
+        {"name":"iron"},
+        {"name":"qlme"},
+        {"name":"rcyc"},
+        {"name":"scmt"},
+        {"name":"slag"},
+        {"name":"stel"},
+        {"name":"stse"},
+        {"name":"stwr"},
+        {"name":"grvl"},
+        {"name":"wdpr"},
+        {"name":"vehi"}
+    ]
+}

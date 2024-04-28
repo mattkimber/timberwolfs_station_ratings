@@ -32,8 +32,8 @@ if (grf_future_status("\F1\25\00\08") == 1 && grf_order_behind("\F1\25\00\08") =
     error(FATAL, MUST_LOAD_AFTER, "FIRS 4.x");
 }
 
-if (grf_future_status("\4E\44\59\03") == 1) {
-    error(FATAL, string(GRF_NOT_SUPPORTED), "AIRS");
+if (grf_future_status("\4E\44\59\03") == 1 && grf_order_behind("\4E\44\59\03") == 0) {
+    error(FATAL, MUST_LOAD_AFTER, "AIRS");
 }
 
 if (grf_future_status("\4A\4B\88\08") == 1) {
@@ -91,7 +91,9 @@ if (grf_future_status("\56\42\03\03") == 1 && grf_order_behind("\56\42\03\03") =
 }
 
 firs_economy = param["\F1\25\00\08", 0];
+airs_economy = param["\4E\44\59\03", 0];
 is_firs = (grf_future_status("\F1\25\00\08") == 1 ? 1 : 0);
+is_airs = (grf_future_status("\4E\44\59\03") == 1 ? 1 : 0);
 
 // Passenger speed
 switch(FEAT_CARGOS, SELF, switch_rating_speed_pass, min(max((getbits(extra_callback_info2, 24, 8) * 100) / (200 - max(min(2000 - current_year, 170),0)) - 52, 0), 50)) {
