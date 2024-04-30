@@ -1,5 +1,5 @@
 ##grflangid 0x01
-STR_GRF_NAME :Timberwolf's Station Ratings 1.0.1
+STR_GRF_NAME :Timberwolf's Station Ratings 1.0.2
 STR_GRF_DESCRIPTION :Custom station ratings and 2x cargo sprites for use with FIRS 4, AIRS or base game
 GRF_NOT_SUPPORTED :{STRING} Industry GRF not supported: {STRING}
 STR_PARAM_BOREDOM_PENALTY :Penalty for boring networks (experimental)

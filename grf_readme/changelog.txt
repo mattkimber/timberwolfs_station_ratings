@@ -1,3 +1,8 @@
+v1.0.2
+------
+
+- AIRS fish allow ship connections
+
 v1.0.1
 ------
 

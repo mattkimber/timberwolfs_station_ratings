@@ -15,7 +15,7 @@
         {"name":"food"},
         {"name":"wood"},
         {"name":"oil"},
-        {"name":"fish"},
+        {"name":"fish", "switch":"_sea"},
         {"name":"petr"},
         {"name":"iron"},
         {"name":"qlme"},
