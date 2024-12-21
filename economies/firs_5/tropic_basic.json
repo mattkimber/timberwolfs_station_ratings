@@ -1,0 +1,24 @@
+{
+    "condition": "firs_5_economy == 2",
+    "cargotypes": [
+        {"name":"beer"},
+        {"name":"bean"},
+        {"name":"chem"},
+        {"name":"java"},
+        {"name":"copr"},
+        {"name":"core"},
+        {"name":"ensp"},
+        {"name":"fmsp"},
+        {"name":"fish", "switch":"_sea"},
+        {"name":"food"},
+        {"name":"frut"},
+        {"name":"good"},
+        {"name":"grai"},
+        {"name":"lvst"},
+        {"name":"mail", "switch":"_mail"},
+        {"name":"nitr"},
+        {"name":"oil"},
+        {"name":"pass", "switch":"_pass"},
+        {"name":"wool"}
+    ]
+}

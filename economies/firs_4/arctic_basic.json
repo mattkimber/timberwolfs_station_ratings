@@ -1,0 +1,24 @@
+{
+    "condition": "firs_4_economy == 1",
+    "cargotypes": [
+        {"name":"pass", "switch":"_pass"},
+        {"name":"nh3"},
+        {"name":"mail", "switch":"_mail"},
+        {"name":"ensp"},
+        {"name":"boom"},
+        {"name":"fmsp"},
+        {"name":"fert"},
+        {"name":"fish", "switch":"_sea"},
+        {"name":"kaol"},
+        {"name":"wood"},
+        {"name":"wdpr"},
+        {"name":"food"},
+        {"name":"papr"},
+        {"name":"peat"},
+        {"name":"phos"},
+        {"name":"pota"},
+        {"name":"pore"},
+        {"name":"sulp"},
+        {"name":"zinc"}
+    ]
+}

@@ -2,7 +2,7 @@ grf {
   grfid:                  "TWF\0B";
   name:                   string(STR_GRF_NAME);
   desc:                   string(STR_GRF_DESCRIPTION);
-  version:                1;
+  version:                2;
   min_compatible_version: 1;
 
   param 0 {
@@ -30,6 +30,10 @@ cargotable { ACID, ALUM, AORE, BATT, BDMT, BEAN, BEER, BOOM, BRCK, BUBL, CASS, C
 
 if (grf_future_status("\F1\25\00\08") == 1 && grf_order_behind("\F1\25\00\08") == 0) {
     error(FATAL, MUST_LOAD_AFTER, "FIRS 4.x");
+}
+
+if (grf_future_status("\F1\25\00\09") == 1 && grf_order_behind("\F1\25\00\09") == 0) {
+    error(FATAL, MUST_LOAD_AFTER, "FIRS 5.x");
 }
 
 if (grf_future_status("\4E\44\59\03") == 1 && grf_order_behind("\4E\44\59\03") == 0) {
@@ -90,9 +94,12 @@ if (grf_future_status("\56\42\03\03") == 1 && grf_order_behind("\56\42\03\03") =
     error(FATAL, string(GRF_NOT_SUPPORTED), "YETI");
 }
 
-firs_economy = param["\F1\25\00\08", 0];
+firs_4_economy = param["\F1\25\00\08", 0];
+firs_5_economy = param["\F1\25\00\09", 0];
 airs_economy = param["\4E\44\59\03", 0];
-is_firs = (grf_future_status("\F1\25\00\08") == 1 ? 1 : 0);
+
+is_firs_4 = (grf_future_status("\F1\25\00\08") == 1 ? 1 : 0);
+is_firs_5 = (grf_future_status("\F1\25\00\09") == 1 ? 1 : 0);
 is_airs = (grf_future_status("\4E\44\59\03") == 1 ? 1 : 0);
 
 // Passenger speed

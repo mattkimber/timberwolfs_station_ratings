@@ -1,5 +1,5 @@
 {
-    "condition": "firs_economy == 3",
+    "condition": "firs_4_economy == 3",
     "cargotypes": [
         {"name":"pass", "switch":"_pass"},
         {"name":"acid"},

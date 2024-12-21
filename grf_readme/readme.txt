@@ -84,7 +84,7 @@ connecting services will already need to be provided.
 
 Note: as this is a somewhat unexpected use of NML, support for
 industry sets has to be hardcoded on a set-by-set basis. Currently
-only FIRS 4, AIRS, and the base game are supported.
+only FIRS 4/5, AIRS, and the base game are supported.
 
 Compatibility may be broken if industry sets introduce new cargo
 types, or otherwise reorder their cargo list.

@@ -1,6 +1,6 @@
 ##grflangid 0x01
-STR_GRF_NAME :Timberwolf's Station Ratings 1.0.2
-STR_GRF_DESCRIPTION :Custom station ratings and 2x cargo sprites for use with FIRS 4, AIRS or base game
+STR_GRF_NAME :Timberwolf's Station Ratings 1.0.3
+STR_GRF_DESCRIPTION :Custom station ratings and 2x cargo sprites for use with FIRS 4/5, AIRS or base game
 GRF_NOT_SUPPORTED :{STRING} Industry GRF not supported: {STRING}
 STR_PARAM_BOREDOM_PENALTY :Penalty for boring networks (experimental)
 STR_PARAM_BOREDOM_PENALTY_DESCRIPTION :Applies a penalty to ship and air cargo routes with no other transport connections when using improved station ratings.{}{}The {ORANGE}Draconian{BLACK} or {ORANGE}Evil{BLACK} settings may result in stations becoming impossible to serve unless ships and aircraft are removed from the route.{}{}See readme for more details and supported industry sets.

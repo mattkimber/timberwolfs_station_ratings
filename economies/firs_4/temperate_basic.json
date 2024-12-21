@@ -1,24 +1,23 @@
 {
-    "condition": "firs_economy == 2",
+    "condition": "firs_4_economy == 0",
     "cargotypes": [
         {"name":"pass", "switch":"_pass"},
         {"name":"beer"},
         {"name":"mail", "switch":"_mail"},
-        {"name":"bean"},
         {"name":"chem"},
+        {"name":"coal"},
         {"name":"good"},
-        {"name":"java"},
-        {"name":"copr"},
-        {"name":"core"},
         {"name":"ensp"},
         {"name":"fmsp"},
-        {"name":"food"},
         {"name":"fish", "switch":"_sea"},
         {"name":"frut"},
-        {"name":"grai"},
+        {"name":"iore"},
+        {"name":"food"},
+        {"name":"kaol"},
         {"name":"lvst"},
-        {"name":"nitr"},
-        {"name":"oil"},
-        {"name":"wool"}
+        {"name":"milk"},
+        {"name":"sand"},
+        {"name":"scrp"},
+        {"name":"stel"}
     ]
 }
